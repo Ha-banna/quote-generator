@@ -15,7 +15,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('https://api.unsplash.com/photos?query=architecture&per_page=200&client_id=_x2-jPUZWgK-csZfpW9DStciZQ0N-tNzkaSyhuzSMSo');
+      const response = await fetch('https://api.unsplash.com/photos?query=architecture&per_page=200&client_id=API_KEY');
       if (!response.ok) {
         throw new Error('Failed to fetch photos');
       }
@@ -37,7 +37,7 @@ function App() {
     const response = await fetch(url, 
       {
         headers: {
-          'X-RapidAPI-Key': 'e014bd923cmshee287b35414686cp1e586bjsn25c44b4afc10',
+          'X-RapidAPI-Key': 'API_KEY',
           'X-RapidAPI-Host': 'famous-quotes4.p.rapidapi.com'
         }
       });
