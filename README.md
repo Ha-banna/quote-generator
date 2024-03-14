@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This simple React app displays a random quote and a randow background image.
+It does this by getting a list of 200 quotes from an free api and 30 images from the unsplashed api and caches them in localstorage and then sends a request when we use all the images in the list
 
 ## Available Scripts
 
